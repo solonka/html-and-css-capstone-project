@@ -1,0 +1,40 @@
+.container{
+    background-color: lightseagreen;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid lightslategray;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: palevioletred; 
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.first-image{
+    display: flex;
+    justify-content: center;
+}
+.formcontent{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: aqua;
+}
+.images{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
